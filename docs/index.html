@@ -7,154 +7,92 @@
 
   <title>Grupo S. Lagareiro | Estrutura Empresarial e Portfólio de Negócios</title>
   <meta name="description" content="Holding empresarial focada em gestão estratégica, estrutura operacional e desenvolvimento de negócios recorrentes e escaláveis.">
-  <meta name="keywords" content="holding empresarial, gestão estratégica, grupo empresarial, construção, investimentos, serviços recorrentes">
+  <meta name="keywords" content="holding empresarial, gestão estratégica, grupo empresarial, investimentos, serviços recorrentes">
 
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,600,700|Poppins:300,400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Poppins&family=Raleway&display=swap" rel="stylesheet">
 
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
   <link href="assets/css/main.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="index-page">
 
-<header id="header" class="fixed-top">
-  <div class="container d-flex align-items-center justify-content-between">
+<header id="header" class="header d-flex align-items-center fixed-top">
+  <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-    <h1 class="logo"><a href="index.html">Grupo S. Lagareiro</a></h1>
+    <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+      <h1 class="sitename">Grupo S. Lagareiro</h1>
+      <span>.</span>
+    </a>
 
-    <nav id="navbar" class="navbar">
+    <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a class="nav-link scrollto active" href="#hero">Início</a></li>
-        <li><a class="nav-link scrollto" href="#about">Sobre o Grupo</a></li>
-        <li><a class="nav-link scrollto" href="#clients">Empresas</a></li>
-        <li><a class="nav-link scrollto" href="#services">Atuação</a></li>
-        <li><a class="nav-link scrollto" href="#contact">Contato</a></li>
+        <li><a href="#hero" class="active">Início</a></li>
+        <li><a href="#about">Sobre o Grupo</a></li>
+        <li><a href="#services">Atuação</a></li>
+        <li><a href="#portfolio">Empresas</a></li>
+        <li><a href="#contact">Contato</a></li>
       </ul>
-      <i class="bi bi-list mobile-nav-toggle"></i>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
     </nav>
+
+    <a class="btn-getstarted" href="#about">Conhecer o Grupo</a>
 
   </div>
 </header>
 
-<section id="hero" class="d-flex align-items-center">
+<main class="main">
+
+<section id="hero" class="hero section dark-background">
   <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
-  <div class="container text-center position-relative" data-aos="fade-up" data-aos-delay="100">
-    <h1>Grupo S. Lagareiro</h1>
-    <h2>Estrutura empresarial, estratégia e portfólio de negócios</h2>
-    <a href="#clients" class="btn-get-started scrollto">Empresas do Grupo</a>
-  </div>
-</section>
 
-<main id="main">
-
-<section id="about" class="about">
-  <div class="container" data-aos="fade-up">
-
-    <div class="row">
-      <div class="col-lg-6">
-        <img src="assets/img/about.jpg" class="img-fluid" alt="">
-      </div>
-      <div class="col-lg-6 pt-4 pt-lg-0">
-        <h3>Uma holding estruturadora de negócios</h3>
-        <p>
-          O Grupo S. Lagareiro é uma holding empresarial criada para centralizar gestão, estratégia e estrutura operacional de empresas que atuam em serviços essenciais, recorrentes e escaláveis.
-        </p>
-        <p>
-          Atuando como núcleo estratégico e operacional, o grupo organiza processos, padroniza métodos, otimiza custos e prepara cada empresa para crescimento sustentável, previsível e profissional.
-        </p>
+  <div class="container">
+    <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-xl-6 col-lg-8">
+        <h2>Estrutura Empresarial, Estratégia e Crescimento<span>.</span></h2>
+        <p>Uma holding organizada para transformar serviços em negócios sólidos e escaláveis</p>
       </div>
     </div>
 
-  </div>
-</section>
-
-<section id="features" class="features">
-  <div class="container" data-aos="fade-up">
-
-    <div class="row">
-      <div class="col-lg-6">
-        <img src="assets/img/features-bg.jpg" class="img-fluid" alt="">
-      </div>
-      <div class="col-lg-6 pt-4 pt-lg-0">
-        <div class="icon-box">
-          <i class="bi bi-graph-up"></i>
-          <h4>Gestão Estratégica</h4>
-          <p>Planejamento, organização financeira, padronização de processos e controle de indicadores.</p>
-        </div>
+    <div class="row gy-4 mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="200">
+      <div class="col-xl-2 col-md-4">
         <div class="icon-box">
           <i class="bi bi-diagram-3"></i>
-          <h4>Estrutura Operacional</h4>
-          <p>Suporte técnico, estruturação de equipes, organização de contratos e atendimento.</p>
+          <h3><a href="#">Gestão Estratégica</a></h3>
         </div>
+      </div>
+      <div class="col-xl-2 col-md-4">
         <div class="icon-box">
           <i class="bi bi-building"></i>
-          <h4>Expansão e Investimentos</h4>
-          <p>Desenvolvimento de novos negócios, projetos estruturados e ativos empresariais.</p>
+          <h3><a href="#">Estrutura Operacional</a></h3>
         </div>
       </div>
-    </div>
-
-  </div>
-</section>
-
-<section id="clients" class="clients">
-  <div class="container" data-aos="fade-up">
-
-    <div class="section-title">
-      <h2>Empresas do Grupo</h2>
-      <p>Negócios organizados sob uma mesma estrutura estratégica</p>
-    </div>
-
-    <div class="clients-slider swiper">
-      <div class="swiper-wrapper align-items-center">
-        <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt="Vetra Construtora"></div>
-        <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt="Electro Garden"></div>
-        <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt="Farmgarden"></div>
-        <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt="Predial Store"></div>
-        <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt="Vetra Invest"></div>
-      </div>
-      <div class="swiper-pagination"></div>
-    </div>
-
-  </div>
-</section>
-
-<section id="services" class="services section-bg">
-  <div class="container" data-aos="fade-up">
-
-    <div class="section-title">
-      <h2>Atuação do Grupo</h2>
-      <p>Soluções organizadas para diferentes públicos e mercados</p>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-4 col-md-6">
+      <div class="col-xl-2 col-md-4">
         <div class="icon-box">
-          <i class="bi bi-house"></i>
-          <h4>Construção e Manutenção</h4>
-          <p>Obras, reformas e manutenção predial com foco em organização e previsibilidade.</p>
+          <i class="bi bi-graph-up"></i>
+          <h3><a href="#">Crescimento Sustentável</a></h3>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6">
+      <div class="col-xl-2 col-md-4">
         <div class="icon-box">
-          <i class="bi bi-lightning"></i>
-          <h4>Serviços Técnicos</h4>
-          <p>Instalações elétricas, manutenção técnica e sistemas estruturados.</p>
+          <i class="bi bi-cash-stack"></i>
+          <h3><a href="#">Investimentos</a></h3>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6">
+      <div class="col-xl-2 col-md-4">
         <div class="icon-box">
-          <i class="bi bi-cash-coin"></i>
-          <h4>Investimentos</h4>
-          <p>Estruturação de projetos, desenvolvimento de ativos e expansão de negócios.</p>
+          <i class="bi bi-layers"></i>
+          <h3><a href="#">Portfólio Integrado</a></h3>
         </div>
       </div>
     </div>
@@ -162,51 +100,26 @@
   </div>
 </section>
 
-<section id="contact" class="contact">
-  <div class="container" data-aos="fade-up">
-
-    <div class="section-title">
-      <h2>Contato Institucional</h2>
-      <p>Entre em contato com o Grupo S. Lagareiro</p>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="info">
-          <div class="address">
-            <i class="bi bi-geo-alt"></i>
-            <h4>Localização:</h4>
-            <p>Brasil</p>
-          </div>
-          <div class="email">
-            <i class="bi bi-envelope"></i>
-            <h4>Email:</h4>
-            <p>contato@gruposlagareiro.com.br</p>
-          </div>
-        </div>
+<section id="about" class="about section">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4">
+      <div class="col-lg-6 order-1 order-lg-2">
+        <img src="assets/img/about.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-6 order-2 order-lg-1 content">
+        <h3>Uma holding estruturadora de negócios</h3>
+        <p class="fst-italic">
+          O Grupo S. Lagareiro atua como núcleo estratégico e operacional de empresas que prestam serviços essenciais, recorrentes e escaláveis.
+        </p>
+        <ul>
+          <li><i class="bi bi-check2-all"></i> <span>Centralização de gestão, estratégia e controle.</span></li>
+          <li><i class="bi bi-check2-all"></i> <span>Padronização de processos e modelos operacionais.</span></li>
+          <li><i class="bi bi-check2-all"></i> <span>Preparação de empresas para crescimento sustentável e previsível.</span></li>
+        </ul>
+        <p>
+          A holding não atua apenas como administradora societária, mas como estrutura organizadora de operações, marcas e ativos empresariais.
+        </p>
       </div>
     </div>
-
   </div>
 </section>
-
-</main>
-
-<footer id="footer">
-  <div class="container">
-    <div class="copyright">
-      &copy; Copyright <strong><span>Grupo S. Lagareiro</span></strong>. Todos os direitos reservados.
-    </div>
-  </div>
-</footer>
-
-<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/aos/aos.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="assets/js/main.js"></script>
-
-</body>
-</html>
